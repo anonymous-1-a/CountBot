@@ -1,80 +1,102 @@
-# CountBot 文档中心
+# 文档索引
 
-欢迎来到 CountBot 文档中心，这里提供完整的技术文档、开发指南和最佳实践。
+根目录这个 `docs/` 只保留导航入口，完整文档请直接访问 `654321.ai`。
 
-## 文档导航
+## 文档首页
 
-### 快速开始
+- [文档首页](https://654321.ai/docs)
+- [API 参考](https://654321.ai/docs/api-reference)
+- [关于项目](https://654321.ai/docs/about)
 
-- [快速开始指南](quick-start-guide.md) - 5分钟上手 CountBot
-- [部署与运维](deployment.md) - 安装、启动、生产部署指南
+## 快速开始
 
-### 核心概念
+- [安装与启动](https://654321.ai/docs/getting-started/installation)
+- [配置系统](https://654321.ai/docs/getting-started/configuration)
+- [频道配置](https://654321.ai/docs/getting-started/ChannelConfig)
+- [快速开始](https://654321.ai/docs/getting-started/quick-start-guide)
+- [配置手册](https://654321.ai/docs/getting-started/configuration-manual)
+- [常见问题排查](https://654321.ai/docs/getting-started/troubleshooting)
+- [快速参考](https://654321.ai/docs/getting-started/quick-reference)
+- [使用场景](https://654321.ai/docs/getting-started/use-cases)
 
-- [Agent Loop](agent-loop.md) - ReAct 循环的工作原理
-- [记忆系统](memory.md) - 智能记忆的实现机制
-- [Cron 调度器](cron.md) - 精确按需唤醒的定时任务系统
+## 核心能力
 
-### 功能模块
+- [Agent Loop](https://654321.ai/docs/core/agent-loop)
+- [智能体团队](https://654321.ai/docs/core/agent-teams)
+- [团队管理器](https://654321.ai/docs/core/agent-team-manager)
+- [模型提供商](https://654321.ai/docs/core/providers)
+- [工具系统](https://654321.ai/docs/core/tools)
+- [外部编程工具](https://654321.ai/docs/core/external-coding-tools)
+- [记忆系统](https://654321.ai/docs/core/memory)
+- [技能系统](https://654321.ai/docs/core/skills)
+- [技能创建](https://654321.ai/docs/core/skills-creation)
+- [IM 命令](https://654321.ai/docs/core/im-commands)
+- [渠道系统](https://654321.ai/docs/core/channels)
+- [定时任务](https://654321.ai/docs/core/cron)
+- [子代理](https://654321.ai/docs/core/subagent)
 
-- [渠道系统](channels.md) - 多渠道消息接入配置与内置命令
-- [渠道故障排查](channel-troubleshooting.md) - 常见渠道连接问题排查
-- [工具系统](tools.md) - 内置工具使用和自定义开发
-- [技能系统](skills.md) - 技能插件开发指南
-- [远程认证](auth.md) - 零配置安全模型详解
+## 实战场景
 
-### 配置参考
+- [一句话清空收件箱：AI邮件分拣的场景拆解与提示词技巧](https://654321.ai/docs/scenarios/一句话清空收件箱：AI邮件分拣的场景拆解与提示词技巧)
+- [每天早上一条消息搞定全天：AI早报自动生成的场景与调度技巧](https://654321.ai/docs/scenarios/每天早上一条消息搞定全天：AI早报自动生成的场景与调度技巧)
+- [帮我做个网页然后上线：从需求描述到生产部署的完整话术](https://654321.ai/docs/scenarios/帮我做个网页然后上线：从需求描述到生产部署的完整话术)
+- [帮我搜一下最近AI有什么新动态：多源信息聚合的场景与检索技巧](https://654321.ai/docs/scenarios/帮我搜一下最近AI有什么新动态：多源信息聚合的场景与检索技巧)
+- [帮我规划一趟旅行：多技能联动的复合任务拆解与编排技巧](https://654321.ai/docs/scenarios/帮我规划一趟旅行：多技能联动的复合任务拆解与编排技巧)
+- [帮我盯着这件事：定时监控与主动提醒的场景设计与自动化技巧](https://654321.ai/docs/scenarios/帮我盯着这件事：定时监控与主动提醒的场景设计与自动化技巧)
 
-- [配置手册](configuration-manual.md) - 完整的配置项说明
-- [API 参考](api-reference.md) - REST API 和 WebSocket 接口文档
+## 进阶文档
 
-### 开发指南
+- [智能体系统设计指南](https://654321.ai/docs/advanced/agent-system-design-guide)
+- [HTTP API 流程总览](https://654321.ai/docs/advanced/http-flows)
+- [基础聊天 HTTP 流程](https://654321.ai/docs/advanced/http-flows/basic-chat-http-flow)
+- [工具调用 HTTP 流程](https://654321.ai/docs/advanced/http-flows/tool-call-http-flow)
+- [系统提示词构建流程](https://654321.ai/docs/advanced/http-flows/system-prompt-construction)
+- [多轮对话流程](https://654321.ai/docs/advanced/http-flows/multi-turn-conversation)
+- [SSE 流式响应格式](https://654321.ai/docs/advanced/http-flows/sse-streaming-format)
+- [WebSocket 通知格式](https://654321.ai/docs/advanced/http-flows/websocket-notifications)
+- [HTTP API 深度解析](https://654321.ai/docs/advanced/http-api-deep-dive)
+- [WebSocket 实时通信](https://654321.ai/docs/advanced/websocket)
+- [部署与运维](https://654321.ai/docs/advanced/deployment)
+- [远程访问](https://654321.ai/docs/advanced/remote-access)
+- [安全体系](https://654321.ai/docs/advanced/security)
+- [认证配置](https://654321.ai/docs/advanced/auth)
+- [提示词优化指南](https://654321.ai/docs/advanced/prompt-optimization-guide)
+- [专业提示词工程](https://654321.ai/docs/advanced/professional-prompt-engineering)
 
-- [CI 测试](ci-testing.md) - 本地 CI 测试指南
+## 技术文章
 
-## 按场景查找
+- [系统架构全景：countbot多层模块化设计解析](https://654321.ai/docs/articles/系统架构全景：countbot多层模块化设计解析)
+- [Agent Loop深度剖析：ReAct循环的工程实现](https://654321.ai/docs/articles/Agent%20Loop深度剖析：ReAct循环的工程实现)
+- [多LLM提供商统一接入：Provider模式与兼容接口实践](https://654321.ai/docs/articles/多LLM提供商统一接入：Provider模式与兼容接口实践)
+- [工具系统设计：从抽象基类到JSON Schema的完整实现](https://654321.ai/docs/articles/工具系统设计：从抽象基类到JSON%20Schema的完整实现)
+- [多渠道消息接入：统一抽象与消息路由机制](https://654321.ai/docs/articles/多渠道消息接入：统一抽象与消息路由机制)
+- [WebSocket实时通信：流式响应与工具调用通知](https://654321.ai/docs/articles/WebSocket实时通信：流式响应与工具调用通知)
+- [记忆系统：基于文件的行式记忆存储与自动总结](https://654321.ai/docs/articles/记忆系统：基于文件的行式记忆存储与自动总结)
+- [技能插件系统：热插拔的Skills扩展机制](https://654321.ai/docs/articles/技能插件系统：热插拔的Skills扩展机制)
+- [上下文工程：系统提示词构建与对话历史管理](https://654321.ai/docs/articles/上下文工程：系统提示词构建与对话历史管理)
+- [安全体系：从API密钥加密到Shell命令沙箱](https://654321.ai/docs/articles/安全体系：从API密钥加密到Shell命令沙箱)
+- [定时任务系统：Cron调度器的精确按需唤醒设计](https://654321.ai/docs/articles/定时任务系统：Cron调度器的精确按需唤醒设计)
+- [子代理系统：后台异步任务的创建与管理](https://654321.ai/docs/articles/子代理系统：后台异步任务的创建与管理)
+- [Heartbeat主动问候：让AI助手具备情感温度](https://654321.ai/docs/articles/Heartbeat主动问候：让AI助手具备情感温度)
+- [配置管理：数据库驱动的动态配置系统](https://654321.ai/docs/articles/配置管理：数据库驱动的动态配置系统)
+- [前端架构：Vue3+TypeScript+Pinia的现代化实践](https://654321.ai/docs/articles/前端架构：Vue3+TypeScript+Pinia的现代化实践)
+- [会话管理：多轮对话的持久化与生命周期](https://654321.ai/docs/articles/会话管理：多轮对话的持久化与生命周期)
+- [企业级消息队列：优先级调度与死信处理](https://654321.ai/docs/articles/企业级消息队列：优先级调度与死信处理)
+- [Web搜索与网页抓取：AI Agent的互联网触角](https://654321.ai/docs/articles/Web搜索与网页抓取：AI%20Agent的互联网触角)
+- [令牌桶限流算法：保护AI服务的流量控制实践](https://654321.ai/docs/articles/令牌桶限流算法：保护AI服务的流量控制实践)
+- [从桌面到生产：CountBot的部署架构与运维实践](https://654321.ai/docs/articles/从桌面到生产：CountBot的部署架构与运维实践)
+- [深度解析AgentLoop状态机：从流式chunk到多轮工具编排的完整生命周期](https://654321.ai/docs/articles/深度解析AgentLoop状态机：从流式chunk到多轮工具编排的完整生命周期)
+- [Shell命令沙箱的攻防博弈：路径穿越检测与编码陷阱](https://654321.ai/docs/articles/Shell命令沙箱的攻防博弈：路径穿越检测与编码陷阱)
+- [WebSocket连接管理器深度剖析：会话绑定、流式缓冲与并发安全](https://654321.ai/docs/articles/WebSocket连接管理器深度剖析：会话绑定、流式缓冲与并发安全)
+- [上下文工程的精密手术：系统提示词组装、多模态注入与记忆融合](https://654321.ai/docs/articles/上下文工程的精密手术：系统提示词组装、多模态注入与记忆融合)
+- [渠道消息处理全链路：从入站消息到Agent响应的九个关键阶段](https://654321.ai/docs/articles/渠道消息处理全链路：从入站消息到Agent响应的九个关键阶段)
+- [AI Agent实战应用场景全景：从自动整理邮件到设计网页并部署上线](https://654321.ai/docs/articles/AI%20Agent实战应用场景全景：从自动整理邮件到设计网页并部署上线)
+- [中国大模型厂商CodingPlan接入指南](https://654321.ai/docs/articles/中国大模型厂商CodingPlan接入指南)
+- [为什么 CountBot 需要当前架构](https://654321.ai/docs/articles/为什么-countbot-需要-0-5-0-架构)
 
-### 我想快速体验
-1. 查看 [快速开始指南](quick-start-guide.md)
-2. 按照步骤安装和启动
-3. 配置一个 LLM 提供商即可使用
+## 版本发布
 
-### 我想了解原理
-1. 深入 [Agent Loop](agent-loop.md) 理解核心循环
-2. 学习 [记忆系统](memory.md) 的实现机制
-
-### 我想接入消息渠道
-1. 查看 [渠道系统](channels.md) 了解支持的渠道
-2. 按照文档配置对应渠道的参数
-3. 在设置页面启用渠道
-
-### 我想开发自定义功能
-1. 阅读 [工具系统](tools.md) 学习如何开发工具
-2. 参考 [技能系统](skills.md) 创建技能插件
-3. 查看 [API 参考](api-reference.md) 了解接口
-
-### 我想管理定时任务
-1. 阅读 [Cron 调度器](cron.md) 了解定时任务系统
-2. 通过聊天使用 `cron-manager` 技能创建和管理定时任务（含会话管理）
-3. 通过 API 或前端面板进行高级管理
-
-### 我想部署到生产环境
-1. 阅读 [部署与运维](deployment.md)
-2. 配置 [远程认证](auth.md) 保护安全
-3. 参考 [配置手册](configuration-manual.md) 优化配置
-
-## 技术栈
-
-### 后端
-- FastAPI - 现代化 Web 框架
-- SQLAlchemy 2.0 - 异步 ORM
-- LiteLLM - 统一 LLM 接口
-- Pydantic v2 - 数据验证
-
-### 前端
-- Vue 3 - 渐进式框架
-- TypeScript - 类型安全
-- Pinia - 状态管理
-- Vue I18n - 国际化
-
-> **注意：** 前端源代码正在最后的全力优化中，优化完成后将全量上传。当前仓库中 `frontend/dist/` 为构建后的 HTML 文件，不影响使用。
+- [v0.6.0](https://654321.ai/docs/releases/v0.6.0)
+- [v0.5.0](https://654321.ai/docs/releases/v0.5.0)
+- [v0.4.0](https://654321.ai/docs/releases/v0.4.0)
+- [v0.3.0](https://654321.ai/docs/releases/v0.3.0)
